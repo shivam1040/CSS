@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root{
+    --main-bg-color:red; /*defining a global variable*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 12vh;
+    background: var(--main-bg-color); /*way to use a global variable*/
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 12vh;
+    background-color: black;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 1vh;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; /*without euqating height of this element equal to height of header, item won't align, another approach: the item to be centered must be inside a block or height of at most last second parent element to be centered*/
+    height: 12vh;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 15vw;
+    padding: 0 2vh;
+}
+.contain{
+    min-height: calc(100vh - 12vh - 12vh);
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+#one{
+    height: 5vh;
+    width: 17vw;
+    border-radius: 22vh;
+    margin: 0 2vh 0 80vh;
+    padding: 0 2vh;
+}
+.btn{
+    padding: 1vh 2vh;
+    color: black;
+    background-color: white;
+    border: .5vh solid cyan;
+    border-radius: .5vh;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+.search button{
+    font-weight: 900;
+    
+}
+.contain1{
+    width: 35vw;
+    margin: 1vh auto;
+    display: flex;
+    justify-content: center;
+}
+.cardst{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3vw;
+}
+.globcard{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.three{
+    width: 65vw;
+    
+}
+.two{
+    width: 45vw;
+}
+@media screen and (max-width:1200px){ /*condition to make website responsive below 1200px*/
+    body{
+        background-color: aqua;
+    }
+    header{
+        height: 35vh;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+    }
+    #one{
+        margin: 0;
+    }
+    .contain1{
+        
+        justify-content: center;
+    }
+}

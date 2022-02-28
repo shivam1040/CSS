@@ -1,0 +1,25 @@
+.one{
+    background: rgb(19, 131, 103); /*#ffff for hex, hsl(1, 2, 3) for hue saturatiobn lightness, rgba() for alpha wherew 0 for alpha is lightesr and 1 is darkest*/
+    color: black;
+    /*height: 9999px; vh can be used instead of px, means viewport height*/
+    width: 35px;
+    border: 2px solid salmon; /*sets border, ensure ro use solid*/
+    background-image: url('a.jpeg');
+    background-repeat: no-repeat; /*doesn't repeat image along any direction, use space keyword to maintain some space between images while repeating*/
+    background-size: contain; /*contain ensures that without changing aspect ratio the image is adjusted to maximum extent inside the element, similarly 11px 12px can be written to manually size the image*/
+    /*background-position: center; /*gives posititon to image*/
+    background-attachment: fixed; /*this ensures that image stays on fronnt no maatter how much scrolling, doesn't work with background position*/
+}
+*{ /*universal selector, changes the property of entire element/page, used to override default css of browser*/
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    background-color: black;
+    color: white;
+
+}
+body{
+    
+}

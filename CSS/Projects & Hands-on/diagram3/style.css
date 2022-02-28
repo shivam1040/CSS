@@ -1,0 +1,179 @@
+
+.top{
+    margin-top:5vh; 
+    background-color:black;
+    height: .1vh;
+}
+
+.caro{
+    position: relative;
+    
+    top:5vh;
+    
+    text-align: center;
+    
+    
+}
+.card{
+    display:inline-block;
+    margin-top: .5%;
+    
+
+    
+}
+
+.card-img-top{
+    height: 20vh;
+    width:15vw;
+   
+}
+
+.card-text{
+    font-size:calc((.5vw + .5vh));
+  
+}
+
+.caroparent{
+    position:absolute;
+   text-align: center;
+   width: 100%;
+   top:30%;
+
+
+}
+.arrow {
+ 
+    position: absolute;
+    padding: 1vw; /* Arrow size */
+   
+   
+            box-shadow: .5vw -.5vw 0 1vw grey inset;
+    -webkit-box-shadow: .5vw -.5vw grey inset;
+    border: solid transparent;
+    border-width: 0 0 2vw 2vw;
+    
+  }
+  
+  .arrow:hover {
+            box-shadow: 2px -2px 0 2px grey inset;
+    -webkit-box-shadow: 4px -4px grey inset;
+  }
+  
+  
+  .arrow-right { transform:rotate(225deg);
+      right: 15%;
+    }
+  .arrow-left  { transform:rotate(45deg);
+        left:15%;
+    }
+  
+  
+  .l{
+    
+      position: absolute;
+      height: 100%;
+      width: 20%;
+      top:0%;
+      background-color: white;
+  }
+
+  .r{
+  
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    top:0%;
+    left:80%;
+    background-color: white;
+}
+
+.heading{
+    position: relative;
+    top:10vh;
+    width: 60%;
+    
+    margin-left: 20%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.form{
+    
+ width: 40%;
+ border: solid black;
+ 
+}
+
+.contentH{
+    width: 30%;
+}
+
+.contentP{
+    width: 45%;
+    margin-top: 6vh;
+    margin-left: -40%;
+}
+
+.boxes{
+    
+    width: 1%;
+    height: 1%;
+    padding: 5vh;
+    position: absolute;
+}
+
+.boxes:nth-child(4) {
+    border: solid black;
+    position: absolute;
+    bottom: 13vh;
+    left: 1vh;
+}
+
+.boxes:nth-child(5) {
+    border: solid black;
+    position: absolute;
+    bottom: 13vh;
+    left: 13vh;
+}
+
+.boxes:nth-child(6) {
+    border: solid black;
+    position: absolute;
+    bottom: 13vh;
+    left: 25vh;
+}
+
+.boxes:nth-child(7) {
+    border: solid black;
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+}
+
+.boxes:nth-child(8) {
+    border: solid black;
+    position: absolute;
+    bottom: 1vh;
+    left: 13vh;
+}
+
+.boxes:nth-child(9) {
+    border: solid black;
+    position: absolute;
+    bottom: 1vh;
+    left: 25vh;
+}
+
+.bottom{
+  background-color:gray;
+  position: relative;
+  bottom: -10.5vh;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.foots{
+ 
+}
+

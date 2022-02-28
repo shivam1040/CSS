@@ -1,0 +1,18 @@
+
+
+.contain{
+    display: flex; /*initializing flex box basically display elements in a box*/
+    flex-direction: row; /*spawns the elements in column style, by default it's row*/
+    flex-wrap: wrap; /*wrap like feature while resizing browser*/
+    justify-content: center; /*centers the elements, flex-start value will bring the element at starting of flexbox, space-between can imitate individual left right float for two elements*/
+    align-items: center;/*aligns the items vertically too but considers spaces too*/
+    align-content: center;/*same as above but doesn't consider space*/
+}
+.one{
+    order: 3; /*sets the order of appearance of elelemt in dom no matter how it's described in html doc*/
+    align-self: flex-end; /*aligns the particular element to end of flec=xbox container*/
+    background-color: red;
+    height: 200px;
+    flex-grow: 1; /*resizes the element, doesn't work if both values of height width are alreadyu defined, and works in relative to other flex items*/
+    flex-shrink: 1; /*same as above but shrinks the element when it overlaps with other element by a given factor*/
+}

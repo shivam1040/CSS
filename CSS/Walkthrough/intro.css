@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+#first{ /*changes the background color of element id 1, number given to id doesn't work */
+    background-color: yellow;
+}
+.one{ /*class selector to apply similar rule for more than one selector, separate them with comma and write them, p.classnam or p#id will appy rules to all paragraphs with given id/class */
+    background-color: beige;
+    color: blue; /*changes the text color*/
+}
+h1{ /*changes the color of h1 content to red, this is kmown as element selector way*/
+    color: red;
+}
+div{ /*defining like this will only work with div tags which don't have any kind of identification*/
+    background-color: antiquewhite;
+}

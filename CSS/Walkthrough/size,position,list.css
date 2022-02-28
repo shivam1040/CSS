@@ -1,0 +1,21 @@
+.two{
+    font-size: 34px;
+}
+.tw{
+    font-size: 2em; /*this means that the size is twice of parent element size, 34*2 in this case*/
+    font-size: .5rem;/*this means .5 times of root element size(default sizing of html in browsers)*/
+    width: 50vw;/*this means that size is 50 % of viewport width, same can be done with height*/
+    /* % is used to set size according to parent element*/
+     min-height: 50vh; /*ensures that minimum height is 50vh, any height set below this will not work*/
+     margin: auto;/*most of the times brings content to center*/
+     position: relative; /*this enables the movement of element relative and movemewnt doesnt affect other elements after below it(if moved to other elements below it then the moving element will cover the below element), by default positioning of element is static which makes it fixed and doesnt allow top bottom etc keywords to work*/
+     top: 100px;
+     position: absolute;/*dom will now consider the element as non existing but it will still be visisble to the user, when the elelement is non existing to dom then other elements will get placed at the place of non existing element but siince the non existing element is visisble to the user then this element will cover the element present at the place of non existing element, non existing is basically removing elelemt from flow but still appears to user, the element will get positioned relative to last non static member, if no non static member then movemewnt is reative to html element*/
+    /*position:fixed; ensures the element movement is relative to browser window, used when we want the element to stay affixed at a point, no matter how much scrooling*/
+    /*position:sticky; ensures the element is always on screen, no matter scroll up or down*/
+    z-index: 1; /*ensures this element is always on top of others, in case of overlapping*/
+}
+li{
+    list-style: circle; /*changes the bulleting shape*/
+    /*list-style: square inside url('a.jpeg'); shortcut to set list style type, list style position, list style image. list style inside means bulleting is outside the border of ul*/
+}

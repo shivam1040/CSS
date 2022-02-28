@@ -1,0 +1,7 @@
+.on{
+    float: right; /*moves the element to extreme right*/
+    clear: right; /*this ensures that no element is placed next when another neighboeing elements calls for float right, ensures theres no element on right*/
+}
+.one{
+    float: left; /*this element will move right to above element, since in css when space is present, float functions this way, basically acts like a span*/
+}

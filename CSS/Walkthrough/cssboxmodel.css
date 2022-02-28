@@ -1,0 +1,16 @@
+/*total height of a content in css=given height+top/bottom padding+top/bottom border+top/bottom margin, box heirarchy, border-margin-padding-content*/
+body{
+    margin: 4px 4px 4px 4px; /*adjustments in top, righ, bottom, left*, APPLICABLE FOR BORDERS TOO/
+    padding: 1px 1px; /*adjustments in top-bottom, left-right*/
+    margin-top: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 1px; /*rounded borders*/
+    box-sizing: border-box; /*box sizing determines what size of padding and border is included in element's width and height, border box calculates the effective size of element including border and padding sizes while content box only calculates content's height and width, this is used when elements needs to be in scope of another element, parent child relation, in css by default sizing is applied to only content*/
+}
+/*in css suppose margin(say height) of two simultaneous contnent is same then they are sahred, if margin of content 1 is more than content 2 then content 2 overlaps the content 1 margin and shares it, if contnent 1 has 30 and content 2 has 20, then content 2 overlaps content 1 by 20 leaveing a space of 10 known as margin collapse*/
+.two{
+    text-align: center; /*aligns the text to center*/
+}
+/*padding is for gap between margin and content*/

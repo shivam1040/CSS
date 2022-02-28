@@ -1,0 +1,19 @@
+.one{
+    display: inline; /*inline is used to keep the elements side by side(only when the next element is inline too, takes space required by content, setting margin padding width etc for top bottom not allowed*/
+    display: inline-block; /*this enables the use of margin padding etc. in top bottom right left, use none to remove element from dom*/
+}
+.on{
+    display: inline;
+    text-decoration: underline;
+    text-transform: capitalize; /*CAPITALIZES FIRST letter of every word*/
+    line-height: 1px; /*dist between two lines*/
+    font-size: 24px;
+    visibility: hidden; /*rlrmrnt is hidden but takes up the place*/
+    font-family: 'Courier New', Courier, monospace; /*if new isn't rendered then courier is rendered, if courier also not rendered then monospace is rendered, double quote is given to courier new because it has space in between, and the one which gets render will get underline in web development tools*/
+    /*to import external font, link the stylesheet of font and write the font family instruction in css sheet*/
+    /*web safe fonts are universal fonts present in every browser*/
+    font-style: italic; /*font variant is for lowercase uppercases, font weight is for roviding wieght to font*/
+}
+.nav ul li a{ /*points to the element a inside li, inside ul. inside nav class*/
+
+}
